@@ -1,0 +1,3 @@
+<x-rift component="[path]">
+    {{-- [quote] --}}
+</x-rift>

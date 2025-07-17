@@ -1,0 +1,5 @@
+import { RiftComponent } from '@singlephon/rift';
+
+export default class [class] extends RiftComponent {
+
+}
