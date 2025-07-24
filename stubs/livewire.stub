@@ -2,9 +2,9 @@
 
 namespace [namespace];
 
-use Livewire\Component;
+use Singlephon\Rift\RiftComponent;
 
-class [class] extends Component
+class [class] extends RiftComponent
 {
     public function render()
     {
