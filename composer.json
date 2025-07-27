@@ -1,7 +1,6 @@
 {
     "name": "singlephon/rift",
     "description": "Rift is a minimalist framework that extends Laravel Livewire, allowing you to create structured two-way communication between PHP and JavaScript for your components.",
-    "version": "0.2.2",
     "keywords": [
         "singlephon",
         "rift"
