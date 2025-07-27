@@ -4,5 +4,8 @@ namespace Singlephon\Rift;
 
 class Rift
 {
-    // Build your next great package.
+    public static function version()
+    {
+        return config('rift.version');
+    }
 }

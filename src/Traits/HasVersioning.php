@@ -3,14 +3,12 @@
 namespace Singlephon\Rift\Traits;
 
 use Livewire\Attributes\Locked;
+use Singlephon\Rift\Rift;
 
 trait HasVersioning
 {
-    #[Locked]
-    public string $_version_ = '0.2.1';
-
     public function mountHasVersioning()
     {
-        $this->rift->_version_($this->_version_);
+        $this->rift->_version_(Rift::version());
     }
 }
