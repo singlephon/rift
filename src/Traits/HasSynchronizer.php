@@ -7,11 +7,11 @@ use Livewire\Attributes\Locked;
 trait HasSynchronizer
 {
     #[Locked]
-    public array $_synchronizer = [];
+    public array $_synchronizer_ = [];
 
     public function mountHasSynchronizer()
     {
-        $this->_synchronizer = $this->synchronizer();
+        $this->_synchronizer_ = $this->synchronizer();
     }
 
     public function synchronizer (): array
