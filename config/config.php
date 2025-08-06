@@ -4,5 +4,5 @@
  * You can place your custom package configuration in here.
  */
 return [
-    'version' => '0.2.2',
+    'version' => '0.2.3',
 ];
